@@ -1,5 +1,5 @@
 import { sum } from './sum';
-import app from '../app';
+import app from '../src/app';
 import supertest from 'supertest';
 
 const api = supertest(app);
