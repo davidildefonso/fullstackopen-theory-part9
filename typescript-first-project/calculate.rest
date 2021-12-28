@@ -1,0 +1,8 @@
+POST http://localhost:3003/calculate
+content-type: application/json
+
+{
+	"value1": "343",
+	"value2": "0",
+	"op": "divide"
+}
